@@ -11,4 +11,5 @@
 DFDIR="$HOME/src/dotfiles"
 
 ln -fsv $DFDIR/tmux.conf             $HOME/.tmux.conf
+ln -fsv $DFDIR/nvim_init.vim         $HOME/.config/nvim/init.vim
 ln -fsv $DFDIR/joplin_keymap.json    $HOME/.config/joplin/keymap.json
