@@ -8,4 +8,7 @@
 # DATE:         2020-12-31
 #──────────────────────────────────────────────────────────────────────────────
 
-ln -is ~/src/dotfiles/tmux.conf ~/.tmux.conf
+DFDIR="$HOME/src/dotfiles"
+
+ln -fsv $DFDIR/tmux.conf             $HOME/.tmux.conf
+ln -fsv $DFDIR/joplin_keymap.json    $HOME/.config/joplin/keymap.json
