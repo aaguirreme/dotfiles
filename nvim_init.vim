@@ -10,6 +10,9 @@ set number          "Show line numbers.
 set textwidth=79    "Maximum width for text in a line.
 set colorcolumn=+1  "Highlight column after 'textwidth'.
 
+" Use system clipboard (and selection clipboard when available).
+set clipboard^=unnamed,unnamedplus
+
 " Options for indentation.
 set expandtab       "Use spaces instead of tabs for indentation.
 set tabstop=4       "Show existing tabs as N spaces.
