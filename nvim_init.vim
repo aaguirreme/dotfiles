@@ -9,7 +9,7 @@
 " Basic configuration options.
 set number          "Show line numbers.
 set colorcolumn=+1  "Highlight column after 'textwidth'.
-colorscheme evening "Set color scheme
+colorscheme evening "Set color scheme.
 
 " Uncomment only for compatible terminals.
 "set termguicolors   "Use same colors of the GUI in the TUI.
@@ -44,5 +44,5 @@ inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 
-" Toggle relative line numbers.
+" Toggle relative line numbers (backslash is the default leader key).
 nnoremap <Leader>r :set rnu!<Esc>
