@@ -46,3 +46,7 @@ inoremap <Right> <Nop>
 
 " Toggle relative line numbers (backslash is the default leader key).
 nnoremap <Leader>r :set rnu!<Esc>
+
+" Change default location of split panes.
+set splitright
+set splitbelow
