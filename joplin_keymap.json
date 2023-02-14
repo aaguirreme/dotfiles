@@ -1,7 +1,0 @@
-// Joplin terminal keymap, by Andres M. Aguirre-Mesa. Date: 2020-12-30.
-[   
-    { "keys": ["DOWN", "j"], "type": "function", "command": "move_down" },
-    { "keys": ["UP", "k"], "type": "function", "command": "move_up" },
-    { "keys": ["PAGE_DOWN", "CTRL_F"], "type": "function", "command": "page_down" },
-    { "keys": ["PAGE_UP", "CTRL_B"], "type": "function", "command": "page_up" }
-]
